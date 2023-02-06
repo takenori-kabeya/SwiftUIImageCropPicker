@@ -14,6 +14,8 @@
 		8D3705772990963B00F7EA98 /* SwiftUIImageCropPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3705762990963B00F7EA98 /* SwiftUIImageCropPickerTests.swift */; };
 		8D3705812990963B00F7EA98 /* SwiftUIImageCropPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3705802990963B00F7EA98 /* SwiftUIImageCropPickerUITests.swift */; };
 		8D3705832990963B00F7EA98 /* SwiftUIImageCropPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3705822990963B00F7EA98 /* SwiftUIImageCropPickerUITestsLaunchTests.swift */; };
+		8D370590299098DE00F7EA98 /* ImageCropPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37058F299098DE00F7EA98 /* ImageCropPicker.swift */; };
+		8D370592299099B100F7EA98 /* ImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D370591299099B100F7EA98 /* ImageCropView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8D37057C2990963B00F7EA98 /* SwiftUIImageCropPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIImageCropPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3705802990963B00F7EA98 /* SwiftUIImageCropPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageCropPickerUITests.swift; sourceTree = "<group>"; };
 		8D3705822990963B00F7EA98 /* SwiftUIImageCropPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageCropPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D37058F299098DE00F7EA98 /* ImageCropPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropPicker.swift; sourceTree = "<group>"; };
+		8D370591299099B100F7EA98 /* ImageCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8D3705652990963A00F7EA98 /* SwiftUIImageCropPickerApp.swift */,
 				8D3705672990963A00F7EA98 /* ContentView.swift */,
+				8D37058F299098DE00F7EA98 /* ImageCropPicker.swift */,
+				8D370591299099B100F7EA98 /* ImageCropView.swift */,
 				8D3705692990963B00F7EA98 /* Assets.xcassets */,
 				8D37056B2990963B00F7EA98 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D370592299099B100F7EA98 /* ImageCropView.swift in Sources */,
+				8D370590299098DE00F7EA98 /* ImageCropPicker.swift in Sources */,
 				8D3705682990963A00F7EA98 /* ContentView.swift in Sources */,
 				8D3705662990963A00F7EA98 /* SwiftUIImageCropPickerApp.swift in Sources */,
 			);
