@@ -77,6 +77,7 @@ struct ImageCropPicker: UIViewControllerRepresentable {
                 }
                 DispatchQueue.main.async {
                     self?.parent.pickedImage = image
+                    self?.parent.croppedImage = nil
                     self?.showCropView(picker)
                 }
             }
