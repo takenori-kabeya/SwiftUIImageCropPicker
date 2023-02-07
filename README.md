@@ -11,5 +11,7 @@ SwiftUI sample to crop a image selected by PHPickerViewController
 8. Both crop view and picker will disappear and the cropped image appears in the first screen.
 
 Sample movies:
+
 https://youtube.com/shorts/J3lHTRRpFB4
+
 https://youtube.com/shorts/jE_IZvi-HDU
