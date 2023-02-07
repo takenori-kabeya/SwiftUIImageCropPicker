@@ -43,7 +43,7 @@ struct ImageCropView: View {
                                geometry.size.height * screenSizeToImageSizeRatio :
                                 geometry.size.width * screenSizeToImageSizeRatio / image.size.width * image.size.height)
                         .clipShape(Rectangle())
-                        .overlay(cropOpperator)
+                        .overlay(cropOperator)
                 }
                 Spacer()
                 HStack {
@@ -86,7 +86,7 @@ struct ImageCropView: View {
         self.croppedImage = UIImage(cgImage: croppedImage)
     }
     
-    var cropOpperator: some View {
+    var cropOperator: some View {
         GeometryReader { geometry in
             let scaledRectWidth = geometry.size.width
             let scaledRectHeight = geometry.size.height
